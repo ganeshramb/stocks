@@ -8,7 +8,7 @@ from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 
 # Load model
-model = load_model(r'.\model\stock_prediction.h5')
+model = load_model(r'..\model\stock_prediction.h5')
 
 # Web App Header and Sidebar
 st.title('Advanced Stock Price Prediction App 📈')
