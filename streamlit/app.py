@@ -11,8 +11,7 @@ import os
 
 
 # Load model
-model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'model', 'stock_prediction.h5')
-model = load_model(model_path)
+model = load_model(".\model\stock_prediction.h5")
 
 
 # Web App Header and Sidebar
