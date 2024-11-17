@@ -6,9 +6,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
+import os
+
+
 
 # Load model
-model = load_model(r'..\model\stock_prediction.h5')
+model = os.path.join(os.path.dirname(__file__), 'model', 'stock_prediction.h5')
 
 # Web App Header and Sidebar
 st.title('Advanced Stock Price Prediction App 📈')
