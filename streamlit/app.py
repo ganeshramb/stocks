@@ -4,6 +4,7 @@ import streamlit as st
 import yfinance as yf
 import matplotlib.pyplot as plt
 import seaborn as sns
+import keras
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import os
