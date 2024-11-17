@@ -11,8 +11,9 @@ import os
 
 
 # Load model
-model_path = os.path.join(os.path.dirname(__file__), 'model', 'stock_prediction.h5')
+model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'model', 'stock_prediction.h5')
 model = load_model(model_path)
+
 
 # Web App Header and Sidebar
 st.title('Advanced Stock Price Prediction App 📈')
