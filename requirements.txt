@@ -7,3 +7,4 @@ scikit-learn
 tensorflow == 2.13.0
 keras == 2.13.1
 streamlit == 1.40.0
+python == 3.8.19
