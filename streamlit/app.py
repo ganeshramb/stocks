@@ -11,7 +11,7 @@ import os
 
 
 # Load model
-model = load_model("./model/stock_prediction.h5")
+model = load_model("./model/final_stock_prediction.h5")
 
 
 # Web App Header and Sidebar
