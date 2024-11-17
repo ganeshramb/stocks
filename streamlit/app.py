@@ -12,7 +12,7 @@ import tensorflow as tf
 
 
 # Load model
-model = tf.keras.models.load_model("new_stock_prediction_saved_model")
+model = load_model("new_stock_prediction.keras")
 
 # Web App Header and Sidebar
 st.title('Advanced Stock Price Prediction App 📈')
