@@ -6,7 +6,4 @@ matplotlib
 seaborn
 scikit-learn
 keras
-Python==3.10
-Tensorflow==2.13.0
-tensorflow-text==2.13.0
-tensorflow-models-official==2.13.1
+tensorflow
