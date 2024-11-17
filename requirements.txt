@@ -7,4 +7,3 @@ seaborn
 scikit-learn
 keras==2.13.1
 tensorflow==2.13.0
-python==3.8.19
