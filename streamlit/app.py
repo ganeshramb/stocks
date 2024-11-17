@@ -11,8 +11,7 @@ import os
 
 
 # Load model
-model = load_model("./model/final_stock_prediction.h5")
-
+model = tf.keras.models.load_model("new_stock_prediction_saved_model")
 
 # Web App Header and Sidebar
 st.title('Advanced Stock Price Prediction App 📈')
